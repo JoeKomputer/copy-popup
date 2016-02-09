@@ -1,0 +1,47 @@
+.copy-popup {
+  position: absolute;
+  top: -40px;
+  right: 10px;
+}
+.copy-popup .button{
+    border-color: #444;
+    min-height: 35px;
+    line-height: 35px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+.copy-popup:before {
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    width: 15px;
+    position: absolute;
+    bottom: -0.5px;
+    background-color: #444;
+    right: 24px;
+    -webkit-transform: rotate(115deg) skew(-39deg);
+  }
+.copy-popup.under{
+    bottom:-40px;
+    top:initial;
+  }
+.copy-popup.under:before{
+  top: -0.5px;
+}
+div[copy-content]:after{
+    content:"";
+    position: absolute;
+}
+div[copy-content].copy-select.rounded-corners:after{
+    border-radius: 5px;
+}
+div[copy-content].copy-select:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+

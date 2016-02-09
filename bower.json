@@ -1,0 +1,28 @@
+{
+  "name": "copy-popup",
+  "version": "0.0.1",
+  "authors": [
+    "Josef.Kerkinni <Josef.Kerkinni@gmail.com>"
+  ],
+  "description": "Angular/Ionic directive mocking native hold to copy functionality",
+  "main": "copy-content.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "ionic",
+    "cordova",
+    "popup",
+    "copy"
+  ],
+  "license": "MIT",
+  "homepage": "www.joekomputer.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
